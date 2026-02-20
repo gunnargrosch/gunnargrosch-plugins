@@ -6,5 +6,21 @@
   "metadata": {
     "description": "Claude Code plugins by Gunnar Grosch"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "aws-serverless",
+      "description": "Build and deploy serverless applications with AWS Lambda, SAM, API Gateway, EventBridge, and Step Functions",
+      "source": {
+        "source": "github",
+        "repo": "gunnargrosch/aws-serverless-plugin"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Gunnar Grosch"
+      },
+      "license": "MIT",
+      "keywords": ["serverless", "aws", "lambda", "sam", "api-gateway", "eventbridge", "step-functions", "dynamodb"],
+      "category": "cloud"
+    }
+  ]
 }
