@@ -1,0 +1,10 @@
+{
+  "name": "gunnargrosch-plugins",
+  "owner": {
+    "name": "Gunnar Grosch"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Gunnar Grosch"
+  },
+  "plugins": []
+}
