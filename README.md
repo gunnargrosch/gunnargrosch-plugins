@@ -33,6 +33,25 @@ Build and deploy serverless applications with AWS Lambda, SAM, API Gateway, Even
 
 [View plugin repository](https://github.com/gunnargrosch/aws-serverless-plugin)
 
+### AWS AppConfig Plugin
+
+Manage application configuration and feature flags with AWS AppConfig — deployment strategies, safe rollouts, and multi-compute integration.
+
+```bash
+/plugin install aws-appconfig@gunnargrosch-plugins
+```
+
+**Features:**
+
+- Feature flags with multi-variant support, targeting rules, split operator for A/B testing, and Powertools integration
+- Freeform configuration profiles with JSON Schema and Lambda validators
+- Deployment strategies with automatic rollback via CloudWatch alarms and 72-hour revert
+- Lambda extension, ECS/EKS/Fargate sidecars, AWS Batch, EC2 daemon, and on-premises integration
+- Monitoring with rollback notifications, extensions (EventBridge, SNS, SQS, Jira), and CloudTrail auditing
+- Symptom-based troubleshooting for common AppConfig issues
+
+[View plugin repository](https://github.com/gunnargrosch/aws-appconfig-plugin)
+
 ## License
 
 MIT

@@ -21,6 +21,21 @@
       "license": "MIT",
       "keywords": ["serverless", "aws", "lambda", "sam", "api-gateway", "eventbridge", "step-functions", "dynamodb"],
       "category": "cloud"
+    },
+    {
+      "name": "aws-appconfig",
+      "description": "Manage application configuration and feature flags with AWS AppConfig — deployment strategies, Lambda/ECS/EKS/EC2/Batch/on-premises integration, and Powertools utilities",
+      "source": {
+        "source": "github",
+        "repo": "gunnargrosch/aws-appconfig-plugin"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Gunnar Grosch"
+      },
+      "license": "MIT",
+      "keywords": ["appconfig", "feature-flags", "configuration", "deployment-strategies", "lambda", "ecs", "eks", "ec2", "batch", "on-premises", "powertools", "rollback"],
+      "category": "cloud"
     }
   ]
 }
