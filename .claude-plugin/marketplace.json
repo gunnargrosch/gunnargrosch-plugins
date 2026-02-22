@@ -11,8 +11,8 @@
       "name": "aws-serverless",
       "description": "Build and deploy serverless applications with AWS Lambda, SAM, API Gateway, EventBridge, and Step Functions",
       "source": {
-        "source": "github",
-        "repo": "gunnargrosch/aws-serverless-plugin"
+        "source": "url",
+        "url": "https://github.com/gunnargrosch/aws-serverless-plugin.git"
       },
       "version": "1.1.0",
       "author": {
@@ -26,8 +26,8 @@
       "name": "aws-appconfig",
       "description": "Manage application configuration and feature flags with AWS AppConfig — deployment strategies, Lambda/ECS/EKS/EC2/Batch/on-premises integration, and Powertools utilities",
       "source": {
-        "source": "github",
-        "repo": "gunnargrosch/aws-appconfig-plugin"
+        "source": "url",
+        "url": "https://github.com/gunnargrosch/aws-appconfig-plugin.git"
       },
       "version": "1.0.0",
       "author": {
